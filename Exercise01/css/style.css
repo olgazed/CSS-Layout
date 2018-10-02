@@ -1,0 +1,89 @@
+/*CSS Stylesheet for Exercise_01: Music Categories*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Arial Narrow", Arial, sans-serif;
+	font-size: 0.9rem;
+	width: 430px;
+	height: 90%;
+	position: absolute;
+    margin: 3% 32%;
+}
+
+header,
+section {
+	margin: 0;
+	padding: 1px;
+	background-color: #eee;
+}
+
+h1 {
+	font-size: 1.1rem;
+	font-weight: normal;
+	padding-top: 15px;
+	padding-left: 25px;
+}
+
+figure {
+	background-color: #fff;
+	margin: 40px 10px 25px 25px;
+	height: 25%;
+	border: 1px solid #999;
+	position: relative;
+}
+
+img {
+	width: 130px;
+	height: 86px;
+	border: 1px solid #999;
+	top: 50%;
+	margin-top: -43px;
+	margin-left: 15px;
+	position: absolute;
+}
+
+figure:last-child > img {
+	margin-top: -48px;
+}
+
+figcaption {
+	padding-top: 15px;
+	padding-right: 40px;
+	padding-left: 165px;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+
+form {
+	text-align: right;
+	line-height: 30px;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+
+figure:last-child > form {
+	padding-bottom: 8px;
+}
+
+input[type="submit"] {
+	background: left #cc0000 url("../img/button.gif") repeat-y; 
+	border: 2px solid;
+	border-color: #e68282 #650000 #650000 #9c2828;
+	color: #fff;
+	padding: 3px 15px 3px 20px;
+	font-weight: normal;
+}
+
+input[type="submit"]:hover {
+	cursor: pointer;
+	background: linear-gradient(to right, #670606, #cc0000);
+}

@@ -1,0 +1,97 @@
+/*CSS Stylesheet for Exercise_02: Total Management Login*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8rem;
+	color: #a4a4a4;
+	width: 650px;
+	position: absolute;
+    margin: 150px 25%;
+}
+
+header,
+section {
+	margin: 0;
+	padding: 1px;
+}
+
+body > header {
+	height: 65px;
+	background: #353535 url("../img/shadow.png") no-repeat;
+}
+
+section {
+	background: #3b3b3b;
+	padding: 10px;
+}
+
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.8rem;
+	font-weight: normal;
+	color: #fbd61a;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+
+p {
+	padding-right: 45px;
+	line-height: 1.1rem;
+}
+
+a {
+	text-decoration: none;
+	color: #fcf1d1;
+}
+
+img {
+	float: left;
+	width: 35px;
+	height: 42px;
+	padding: 5px 25px 10px 10px;
+}
+
+form {
+	display: inline;
+	line-height: 50px;
+}
+
+label {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #fff;
+	padding-right: 15px;
+}
+
+input {
+	width: 135px;
+	height: 20px;
+	margin-right: 25px;
+}
+
+input::placeholder {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #000;
+	padding-left: 10px;
+}
+
+input[type="button"] {
+	width: 54px;
+	height: 26px;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	background: #ce0404 url("../img/button.png") no-repeat;
+	color: #fff;
+	margin-right: 5px;
+}
+
+input[type="button"]:hover {
+	cursor: pointer;
+	background: radial-gradient(ellipse at center, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 82%, rgba(0,0,0,1) 100%);
+}

@@ -1,0 +1,120 @@
+/*CSS Stylesheet for Exercise_04: Personal Page*/
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+	width: 80%;
+	margin: 0 auto;
+	font-family: "Caudex", serif;
+	font-size: 1rem;
+	display: flex;
+    flex-direction: column;
+}
+
+body > header {
+	height: 720px;
+	background: url("../img/background.jpg") left no-repeat, url("../img/photo.jpg") right no-repeat;
+	position: relative;
+}
+
+main {
+	display: block;
+}
+
+.box {
+	font-family: "EB Garamond", serif;
+	color: #fff;
+	text-align: center;
+	width: 280px;
+	height: 270px;
+	background-color: black;
+	position: absolute;	
+	top: 20%;
+	left: 11%;
+}
+
+.box > h1 {	
+	font-size: 2.1rem;
+	font-weight: normal;
+	padding: 25px 20px 10px 20px;
+}
+
+hr {
+	width: 50px;
+}
+
+.box > p {
+	font-size: 1.5rem;
+	padding-top: 5px;
+}
+
+nav {
+	width: 320px;
+	height: 50px;
+	background-color: black;
+	position: absolute;
+	top: 80%;
+	left: 9%;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 0;	
+}
+
+ul > li:last-child {
+	padding-right: 10px;
+}
+
+li > a {
+	font-family: "Arial Narrow", Arial, sans-serif;
+	font-size: 1.2rem;
+	text-decoration: none;
+	color: #fff;	
+}
+
+article > header > h1 {
+	font-family: "Caudex", serif;
+	font-size: 2rem;
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+article > p {
+	font-family: "Caudex", serif;
+	text-align: center;
+	padding: 0 28% 7% 28%;
+}
+
+article > header + p {
+	font-size: 1.1rem;
+	margin-top: 5px;
+	padding: 0;
+}
+
+footer {
+	height: 100px;
+	background-color: black;
+}
+
+.iconbox > img {
+	width: 50px;
+	height: 50px;
+	padding-top: 25px;
+}
+
+.iconbox {
+	line-height: 100px;	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}

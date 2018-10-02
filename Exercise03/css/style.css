@@ -1,0 +1,88 @@
+/*CSS Stylesheet for Exercise_03: News Website*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 0.75rem;
+	color: #a2bfb1;
+	width: 720px;
+	position: absolute;
+    margin: 150px 22%;
+    border: 2px solid #5b8e8d;
+    border-radius: 10px;
+}
+
+header,
+main {
+	margin: 0;
+	padding: 0;
+	background: #19393d;
+}
+
+header {
+	border-radius: 8px 8px 0 0;
+	height: 50px;
+}
+
+main {
+	display: block;
+	border-radius: 0 0 8px 8px;
+}
+
+aside {
+	width: 40%;
+	height: 290px;
+}
+
+nav {
+	line-height: 50px;
+}
+
+img {
+	float: right;
+	width: 386px;
+	height: 283px;
+	padding-right: 100px;
+}
+
+li {
+	display: inline;
+}
+
+nav > ul {
+	list-style-type: none;
+}
+
+li > a {
+	font-weight: bold;
+	color: #a2bfb1;
+	text-decoration: none;
+	padding: 5px 10px;
+	background-color: rgba(197, 219, 221, .5);
+}
+
+ul > li:nth-child(odd) {
+	margin-right: -1px;
+}
+
+a[title="News"] {
+	background-color: rgba(197, 219, 221, 0); 
+}
+
+a:hover { 
+	background: #174651;
+}
+
+p {
+	font-weight: bold;
+	border-top: 2px solid rgba(197, 219, 221, .3);
+	padding: 5px 15px;
+}
+
+p:first-child {
+	border-top: 1px solid rgba(197, 219, 221, .3);
+}
